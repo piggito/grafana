@@ -38,4 +38,7 @@ export enum NodeGraphDataFrameFieldNames {
 
   // Defines the stroke dash array for the edge [edges]. See SVG strokeDasharray definition for syntax.
   strokeDasharray = 'strokedasharray',
+
+  // Size of the node icon [nodes]
+  iconSize = 'iconsize',
 }

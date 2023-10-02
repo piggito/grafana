@@ -190,6 +190,10 @@ function makeDataFrames(): {
       },
       type: FieldType.number,
     },
+    [NodeGraphDataFrameFieldNames.iconSize]: {
+      values: [],
+      type: FieldType.string,
+    },
   };
 
   const nodesFrame = new MutableDataFrame({
