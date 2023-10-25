@@ -1,9 +1,3 @@
-import { isEqual } from 'lodash';
-import React from 'react';
-import AutoSizer from 'react-virtualized-auto-sizer';
-
-import { SelectableValue } from '@grafana/data';
-import { selectors } from '@grafana/e2e-selectors';
 import {
   SceneComponentProps,
   SceneDataTransformer,
@@ -16,7 +10,13 @@ import {
   SceneQueryRunner,
   sceneUtils,
   VizPanel,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import { isEqual } from 'lodash';
+import React from 'react';
+import AutoSizer from 'react-virtualized-auto-sizer';
+
+import { SelectableValue } from '@grafana/data';
+import { selectors } from '@grafana/e2e-selectors';
 import { Button, CodeEditor, Field, Select, useStyles2 } from '@grafana/ui';
 import { t } from 'app/core/internationalization';
 import { getPanelDataFrames } from 'app/features/dashboard/components/HelpWizard/utils';

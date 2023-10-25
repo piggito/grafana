@@ -1,8 +1,3 @@
-import * as H from 'history';
-import { Unsubscribable } from 'rxjs';
-
-import { CoreApp, DataQueryRequest, NavModelItem, UrlQueryMap } from '@grafana/data';
-import { locationService } from '@grafana/runtime';
 import {
   getUrlSyncManager,
   SceneFlexLayout,
@@ -13,7 +8,12 @@ import {
   SceneObjectState,
   SceneObjectStateChangedEvent,
   sceneUtils,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import * as H from 'history';
+import { Unsubscribable } from 'rxjs';
+
+import { CoreApp, DataQueryRequest, NavModelItem, UrlQueryMap } from '@grafana/data';
+import { locationService } from '@grafana/runtime';
 import { getDashboardSrv } from 'app/features/dashboard/services/DashboardSrv';
 import { DashboardMeta } from 'app/types';
 

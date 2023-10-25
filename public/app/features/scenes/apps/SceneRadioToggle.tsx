@@ -1,7 +1,7 @@
+import { SceneComponentProps, SceneObjectBase, SceneObjectState } from '@piggito/scenes';
 import React from 'react';
 
 import { SelectableValue } from '@grafana/data';
-import { SceneComponentProps, SceneObjectBase, SceneObjectState } from '@grafana/scenes';
 import { RadioButtonGroup } from '@grafana/ui';
 
 export interface SceneRadioToggleState extends SceneObjectState {

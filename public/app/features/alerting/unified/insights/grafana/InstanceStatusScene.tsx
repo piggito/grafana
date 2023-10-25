@@ -1,6 +1,6 @@
+import { PanelBuilders, SceneFlexItem, SceneQueryRunner } from '@piggito/scenes';
 import React from 'react';
 
-import { PanelBuilders, SceneFlexItem, SceneQueryRunner } from '@grafana/scenes';
 import { DataSourceRef } from '@grafana/schema';
 
 import { overrideToFixedColor } from '../../home/Insights';

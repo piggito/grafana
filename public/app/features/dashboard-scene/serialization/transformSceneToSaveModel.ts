@@ -1,4 +1,3 @@
-import { isEmptyObject, TimeRange } from '@grafana/data';
 import {
   SceneDataLayers,
   SceneGridItem,
@@ -10,7 +9,9 @@ import {
   SceneDataTransformer,
   SceneVariableSet,
   AdHocFilterSet,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
+import { isEmptyObject, TimeRange } from '@grafana/data';
 import {
   AnnotationQuery,
   Dashboard,

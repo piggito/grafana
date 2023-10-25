@@ -1,4 +1,5 @@
-import { PanelBuilders, SceneFlexItem, SceneQueryRunner } from '@grafana/scenes';
+import { PanelBuilders, SceneFlexItem, SceneQueryRunner } from '@piggito/scenes';
+
 import { DataSourceRef, GraphDrawStyle, TooltipDisplayMode } from '@grafana/schema';
 
 import { overrideToFixedColor, PANEL_STYLES } from '../../home/Insights';

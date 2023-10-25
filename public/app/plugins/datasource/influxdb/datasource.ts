@@ -1,3 +1,4 @@
+import { CustomFormatterVariable } from '@piggito/scenes';
 import { cloneDeep, extend, groupBy, has, isString, map as _map, omit, pick, reduce } from 'lodash';
 import { lastValueFrom, merge, Observable, of, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
@@ -31,7 +32,6 @@ import {
   frameToMetricFindValue,
   getBackendSrv,
 } from '@grafana/runtime';
-import { CustomFormatterVariable } from '@grafana/scenes';
 import config from 'app/core/config';
 import { getTemplateSrv, TemplateSrv } from 'app/features/templating/template_srv';
 

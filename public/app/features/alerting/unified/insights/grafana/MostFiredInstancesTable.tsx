@@ -1,15 +1,15 @@
 import { css } from '@emotion/css';
-import React from 'react';
-import { Observable, map } from 'rxjs';
-
-import { DataFrame, Field, GrafanaTheme2 } from '@grafana/data';
 import {
   CustomTransformOperator,
   PanelBuilders,
   SceneDataTransformer,
   SceneFlexItem,
   SceneQueryRunner,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+import { Observable, map } from 'rxjs';
+
+import { DataFrame, Field, GrafanaTheme2 } from '@grafana/data';
 import { DataSourceRef } from '@grafana/schema';
 import { Link, useStyles2 } from '@grafana/ui';
 

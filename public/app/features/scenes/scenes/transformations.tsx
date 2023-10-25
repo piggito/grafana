@@ -6,7 +6,7 @@ import {
   SceneRefreshPicker,
   SceneFlexItem,
   PanelBuilders,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
 
 import { DashboardScene } from '../../dashboard-scene/scene/DashboardScene';
 

@@ -1,5 +1,6 @@
+import { VariableCustomFormatterFn } from '@piggito/scenes';
+
 import { ScopedVars } from '@grafana/data';
-import { VariableCustomFormatterFn } from '@grafana/scenes';
 
 export interface MacroHandler {
   (

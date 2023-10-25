@@ -1,5 +1,6 @@
+import { behaviors, SceneGridItem, SceneGridLayout, SceneQueryRunner, SceneTimeRange, VizPanel } from '@piggito/scenes';
+
 import { TimeRangeUpdatedEvent } from '@grafana/runtime';
-import { behaviors, SceneGridItem, SceneGridLayout, SceneQueryRunner, SceneTimeRange, VizPanel } from '@grafana/scenes';
 import { DashboardCursorSync } from '@grafana/schema';
 
 import { DashboardScene } from '../scene/DashboardScene';

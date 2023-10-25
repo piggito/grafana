@@ -1,3 +1,5 @@
+import { VariableCustomFormatterFn } from '@piggito/scenes';
+
 import {
   DisplayProcessor,
   FieldType,
@@ -7,7 +9,6 @@ import {
   getFrameDisplayName,
   ScopedVars,
 } from '@grafana/data';
-import { VariableCustomFormatterFn } from '@grafana/scenes';
 
 import { getFieldAccessor } from './fieldAccessorCache';
 import { formatVariableValue } from './formatVariableValue';

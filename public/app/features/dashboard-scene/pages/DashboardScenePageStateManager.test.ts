@@ -1,5 +1,6 @@
+import { getUrlSyncManager } from '@piggito/scenes';
+
 import { locationService } from '@grafana/runtime';
-import { getUrlSyncManager } from '@grafana/scenes';
 
 import { DashboardScene } from '../scene/DashboardScene';
 import { setupLoadDashboardMock } from '../utils/test-utils';

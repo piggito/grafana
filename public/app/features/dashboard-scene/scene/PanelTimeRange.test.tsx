@@ -1,7 +1,7 @@
+import { SceneCanvasText, SceneFlexItem, SceneFlexLayout, SceneTimeRange } from '@piggito/scenes';
 import { advanceTo, clear } from 'jest-date-mock';
 
 import { dateTime } from '@grafana/data';
-import { SceneCanvasText, SceneFlexItem, SceneFlexLayout, SceneTimeRange } from '@grafana/scenes';
 
 import { activateFullSceneTree } from '../utils/test-utils';
 

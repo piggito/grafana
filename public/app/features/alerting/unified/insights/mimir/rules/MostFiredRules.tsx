@@ -1,6 +1,6 @@
+import { PanelBuilders, SceneDataTransformer, SceneFlexItem, SceneQueryRunner } from '@piggito/scenes';
 import React from 'react';
 
-import { PanelBuilders, SceneDataTransformer, SceneFlexItem, SceneQueryRunner } from '@grafana/scenes';
 import { DataSourceRef } from '@grafana/schema';
 
 import { PANEL_STYLES } from '../../../home/Insights';

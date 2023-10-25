@@ -1,4 +1,5 @@
-import { SceneDataLayerProvider, dataLayers } from '@grafana/scenes';
+import { SceneDataLayerProvider, dataLayers } from '@piggito/scenes';
+
 import { AnnotationQuery } from '@grafana/schema';
 
 export function dataLayersToAnnotations(layers: SceneDataLayerProvider[]) {

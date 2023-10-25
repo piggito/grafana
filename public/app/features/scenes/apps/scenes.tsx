@@ -1,7 +1,3 @@
-import React from 'react';
-
-import { FieldColorModeId, getFrameDisplayName } from '@grafana/data';
-import { locationService } from '@grafana/runtime';
 import {
   SceneFlexLayout,
   SceneByFrameRepeater,
@@ -16,7 +12,11 @@ import {
   SceneRefreshPicker,
   SceneFlexItem,
   PanelBuilders,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+
+import { FieldColorModeId, getFrameDisplayName } from '@grafana/data';
+import { locationService } from '@grafana/runtime';
 import { BigValueGraphMode, BigValueTextMode, LogsDedupStrategy, LogsSortOrder } from '@grafana/schema';
 import { LinkButton } from '@grafana/ui';
 

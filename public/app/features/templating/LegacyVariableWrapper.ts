@@ -1,4 +1,5 @@
-import { VariableValue, FormatVariable } from '@grafana/scenes';
+import { VariableValue, FormatVariable } from '@piggito/scenes';
+
 import { VariableModel, VariableType } from '@grafana/schema';
 
 import { ALL_VARIABLE_TEXT, ALL_VARIABLE_VALUE } from '../variables/constants';

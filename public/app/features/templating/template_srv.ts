@@ -1,3 +1,4 @@
+import { sceneGraph, VariableCustomFormatterFn } from '@piggito/scenes';
 import { escape, isString } from 'lodash';
 
 import {
@@ -15,7 +16,6 @@ import {
   TemplateSrv as BaseTemplateSrv,
   VariableInterpolation,
 } from '@grafana/runtime';
-import { sceneGraph, VariableCustomFormatterFn } from '@grafana/scenes';
 import { VariableFormatID } from '@grafana/schema';
 
 import { variableAdapters } from '../variables/adapters';

@@ -1,6 +1,3 @@
-import React from 'react';
-
-import { DataSourceApi } from '@grafana/data';
 import {
   SceneComponentProps,
   sceneGraph,
@@ -8,7 +5,10 @@ import {
   SceneObjectState,
   SceneObjectRef,
   VizPanel,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+
+import { DataSourceApi } from '@grafana/data';
 import { t } from 'app/core/internationalization';
 import { InspectTab } from 'app/features/inspector/types';
 

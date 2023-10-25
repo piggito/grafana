@@ -1,5 +1,6 @@
+import { SceneDataProvider, SceneDataTransformer, SceneQueryRunner } from '@piggito/scenes';
+
 import { config } from '@grafana/runtime';
-import { SceneDataProvider, SceneDataTransformer, SceneQueryRunner } from '@grafana/scenes';
 import { PanelModel } from 'app/features/dashboard/state';
 import { SHARED_DASHBOARD_QUERY } from 'app/plugins/datasource/dashboard';
 

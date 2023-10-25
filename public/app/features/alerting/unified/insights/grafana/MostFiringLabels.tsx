@@ -1,7 +1,3 @@
-import { Observable } from 'rxjs';
-
-import { DataQueryRequest, DataQueryResponse, DataQueryResponseData, TestDataSourceResponse } from '@grafana/data';
-import { getBackendSrv } from '@grafana/runtime';
 import {
   PanelBuilders,
   RuntimeDataSource,
@@ -9,7 +5,11 @@ import {
   SceneQueryRunner,
   SceneTimeRange,
   sceneUtils,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import { Observable } from 'rxjs';
+
+import { DataQueryRequest, DataQueryResponse, DataQueryResponseData, TestDataSourceResponse } from '@grafana/data';
+import { getBackendSrv } from '@grafana/runtime';
 import { DataQuery, DataSourceRef } from '@grafana/schema';
 import { getTimeRange } from 'app/features/dashboard/utils/timeRange';
 

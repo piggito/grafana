@@ -1,6 +1,7 @@
+import { SceneGridItem, SceneGridLayout, SceneQueryRunner, VizPanel, VizPanelMenu } from '@piggito/scenes';
+
 import { getPanelPlugin } from '@grafana/data/test/__mocks__/pluginMocks';
 import { locationService } from '@grafana/runtime';
-import { SceneGridItem, SceneGridLayout, SceneQueryRunner, VizPanel, VizPanelMenu } from '@grafana/scenes';
 import { contextSrv } from 'app/core/services/context_srv';
 import { GetExploreUrlArguments } from 'app/core/utils/explore';
 

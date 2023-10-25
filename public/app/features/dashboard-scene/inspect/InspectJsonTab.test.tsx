@@ -1,6 +1,3 @@
-import { FieldType, getDefaultTimeRange, LoadingState, standardTransformersRegistry, toDataFrame } from '@grafana/data';
-import { getPanelPlugin } from '@grafana/data/test/__mocks__/pluginMocks';
-import { setPluginImportUtils } from '@grafana/runtime';
 import {
   SceneCanvasText,
   SceneDataNode,
@@ -8,7 +5,11 @@ import {
   SceneGridItem,
   SceneGridLayout,
   VizPanel,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
+import { FieldType, getDefaultTimeRange, LoadingState, standardTransformersRegistry, toDataFrame } from '@grafana/data';
+import { getPanelPlugin } from '@grafana/data/test/__mocks__/pluginMocks';
+import { setPluginImportUtils } from '@grafana/runtime';
 import { getStandardTransformers } from 'app/features/transformers/standardTransformers';
 
 import { DashboardScene } from '../scene/DashboardScene';

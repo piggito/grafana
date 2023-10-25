@@ -1,8 +1,8 @@
+import { behaviors, SceneDataTransformer, sceneGraph, VizPanel } from '@piggito/scenes';
 import { Subscription } from 'rxjs';
 
 import { AnnotationQuery, DashboardCursorSync, dateTimeFormat, DateTimeInput, EventBusSrv } from '@grafana/data';
 import { TimeRangeUpdatedEvent } from '@grafana/runtime';
-import { behaviors, SceneDataTransformer, sceneGraph, VizPanel } from '@grafana/scenes';
 
 import { DashboardScene } from '../scene/DashboardScene';
 

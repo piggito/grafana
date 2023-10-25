@@ -1,9 +1,9 @@
 import { css } from '@emotion/css';
+import { SceneComponentProps, SceneDebugger } from '@piggito/scenes';
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { GrafanaTheme2, PageLayoutType } from '@grafana/data';
-import { SceneComponentProps, SceneDebugger } from '@grafana/scenes';
 import { CustomScrollbar, useStyles2 } from '@grafana/ui';
 import { Page } from 'app/core/components/Page/Page';
 

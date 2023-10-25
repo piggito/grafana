@@ -1,7 +1,7 @@
 // Libraries
+import { getUrlSyncManager } from '@piggito/scenes';
 import React, { useEffect, useState } from 'react';
 
-import { getUrlSyncManager } from '@grafana/scenes';
 import { GrafanaRouteComponentProps } from 'app/core/navigation/types';
 
 import { getSceneByTitle } from './scenes';

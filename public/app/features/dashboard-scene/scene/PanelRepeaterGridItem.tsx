@@ -1,7 +1,4 @@
 import { css } from '@emotion/css';
-import React, { useMemo } from 'react';
-
-import { config } from '@grafana/runtime';
 import {
   VizPanel,
   SceneObjectBase,
@@ -15,7 +12,10 @@ import {
   sceneGraph,
   MultiValueVariable,
   LocalValueVariable,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React, { useMemo } from 'react';
+
+import { config } from '@grafana/runtime';
 import { GRID_CELL_HEIGHT, GRID_CELL_VMARGIN } from 'app/core/constants';
 
 import { getMultiVariableValues } from '../utils/utils';

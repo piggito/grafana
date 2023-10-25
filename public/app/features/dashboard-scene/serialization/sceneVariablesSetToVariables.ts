@@ -5,7 +5,8 @@ import {
   DataSourceVariable,
   ConstantVariable,
   IntervalVariable,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
 import { VariableModel, VariableHide, VariableRefresh, VariableSort } from '@grafana/schema';
 
 import { getIntervalsQueryFromNewIntervalModel } from '../utils/utils';

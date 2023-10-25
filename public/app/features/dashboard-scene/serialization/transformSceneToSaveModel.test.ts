@@ -1,3 +1,12 @@
+import {
+  MultiValueVariable,
+  SceneDataLayers,
+  SceneGridItemLike,
+  SceneGridLayout,
+  SceneGridRow,
+  SceneVariable,
+  VizPanel,
+} from '@piggito/scenes';
 import { advanceTo } from 'jest-date-mock';
 import { map, of } from 'rxjs';
 
@@ -15,15 +24,6 @@ import {
 } from '@grafana/data';
 import { getPanelPlugin } from '@grafana/data/test/__mocks__/pluginMocks';
 import { setPluginImportUtils } from '@grafana/runtime';
-import {
-  MultiValueVariable,
-  SceneDataLayers,
-  SceneGridItemLike,
-  SceneGridLayout,
-  SceneGridRow,
-  SceneVariable,
-  VizPanel,
-} from '@grafana/scenes';
 import { Dashboard, LoadingState, Panel, RowPanel, VariableRefresh } from '@grafana/schema';
 import { PanelModel } from 'app/features/dashboard/state';
 import { getTimeRange } from 'app/features/dashboard/utils/timeRange';

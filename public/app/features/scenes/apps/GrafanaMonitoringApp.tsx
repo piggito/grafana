@@ -1,7 +1,7 @@
 // Libraries
+import { SceneApp, SceneAppPage, SceneRouteMatch, SceneAppPageLike } from '@piggito/scenes';
 import React, { useMemo, useState } from 'react';
 
-import { SceneApp, SceneAppPage, SceneRouteMatch, SceneAppPageLike } from '@grafana/scenes';
 import { usePageNav } from 'app/core/components/Page/usePageNav';
 import { PluginPageContext, PluginPageContextType } from 'app/features/plugins/components/PluginPageContext';
 

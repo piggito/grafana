@@ -1,4 +1,3 @@
-import { getDefaultTimeRange, LoadingState } from '@grafana/data';
 import {
   SceneDataNode,
   SceneFlexItem,
@@ -6,7 +5,9 @@ import {
   sceneGraph,
   SceneObjectBase,
   SceneObjectState,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
+import { getDefaultTimeRange, LoadingState } from '@grafana/data';
 
 import { activateFullSceneTree } from '../utils/test-utils';
 import { getVizPanelKeyForPanelId } from '../utils/utils';

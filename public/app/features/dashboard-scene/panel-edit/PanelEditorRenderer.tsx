@@ -1,9 +1,9 @@
 import { css } from '@emotion/css';
+import { SceneComponentProps } from '@piggito/scenes';
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { GrafanaTheme2, PageLayoutType } from '@grafana/data';
-import { SceneComponentProps } from '@grafana/scenes';
 import { Button, useStyles2 } from '@grafana/ui';
 import { AppChromeUpdate } from 'app/core/components/AppChrome/AppChromeUpdate';
 import { NavToolbarSeparator } from 'app/core/components/AppChrome/NavToolbar/NavToolbarSeparator';

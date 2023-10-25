@@ -1,9 +1,9 @@
+import { SceneComponentProps, sceneGraph, SceneObjectBase, SceneObjectRef, VizPanel } from '@piggito/scenes';
 import React from 'react';
 import useAsyncFn from 'react-use/lib/useAsyncFn';
 
 import { SelectableValue } from '@grafana/data';
 import { getBackendSrv } from '@grafana/runtime';
-import { SceneComponentProps, sceneGraph, SceneObjectBase, SceneObjectRef, VizPanel } from '@grafana/scenes';
 import { Button, ClipboardButton, Field, Input, Modal, RadioButtonGroup } from '@grafana/ui';
 import { t, Trans } from 'app/core/internationalization';
 import { trackDashboardSharingActionPerType } from 'app/features/dashboard/components/ShareModal/analytics';

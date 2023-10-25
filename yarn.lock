@@ -3284,24 +3284,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@grafana/scenes@npm:^1.18.0":
-  version: 1.19.0
-  resolution: "@grafana/scenes@npm:1.19.0"
-  dependencies:
-    "@grafana/e2e-selectors": 10.0.2
-    react-grid-layout: 1.3.4
-    react-use: 17.4.0
-    react-virtualized-auto-sizer: 1.0.7
-    uuid: ^9.0.0
-  peerDependencies:
-    "@grafana/data": 10.0.3
-    "@grafana/runtime": 10.0.3
-    "@grafana/schema": 10.0.3
-    "@grafana/ui": 10.0.3
-  checksum: ce6f7db1126417c7516f0d72c9fd327f7952fdef0da14951798088e1d30498033e47cb988abcd90d72db9c9882328e1804fd6ec0be68bc021c5830b122e5b575
-  languageName: node
-  linkType: hard
-
 "@grafana/schema@10.2.0, @grafana/schema@workspace:*, @grafana/schema@workspace:packages/grafana-schema":
   version: 0.0.0-use.local
   resolution: "@grafana/schema@workspace:packages/grafana-schema"
@@ -5643,6 +5625,24 @@ __metadata:
     comlink: ^4.3.0
     tslib: ^1.10.0
   checksum: b2c42f978ecd8a2f193d7b05479994007be05ed28048d999f2610bc86cfae0e88201483542d8ee7ed5871f961cca5e9f888f03e71e4928fdc5baa568e4f99974
+  languageName: node
+  linkType: hard
+
+"@piggito/scenes@npm:^1.19.2":
+  version: 1.19.2
+  resolution: "@piggito/scenes@npm:1.19.2"
+  dependencies:
+    "@grafana/e2e-selectors": 10.0.2
+    react-grid-layout: 1.3.4
+    react-use: 17.4.0
+    react-virtualized-auto-sizer: 1.0.7
+    uuid: ^9.0.0
+  peerDependencies:
+    "@grafana/data": 10.0.3
+    "@grafana/runtime": 10.0.3
+    "@grafana/schema": 10.0.3
+    "@grafana/ui": 10.0.3
+  checksum: d5ab23c15d5a9097004c6850b7df94f3dd707af2debb0fe226f899454502aaacf3299ce340f2253e5a41936a83350c578febcea9b7a66dfc2bb28ecc77908a54
   languageName: node
   linkType: hard
 
@@ -17762,7 +17762,6 @@ __metadata:
     "@grafana/lezer-traceql": 0.0.7
     "@grafana/monaco-logql": ^0.0.7
     "@grafana/runtime": "workspace:*"
-    "@grafana/scenes": ^1.18.0
     "@grafana/schema": "workspace:*"
     "@grafana/tsconfig": ^1.3.0-rc1
     "@grafana/ui": "workspace:*"
@@ -17777,6 +17776,7 @@ __metadata:
     "@opentelemetry/api": 1.4.1
     "@opentelemetry/exporter-collector": 0.25.0
     "@opentelemetry/semantic-conventions": 1.15.0
+    "@piggito/scenes": ^1.19.2
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.10
     "@popperjs/core": 2.11.8
     "@prometheus-io/lezer-promql": ^0.37.0-rc.1

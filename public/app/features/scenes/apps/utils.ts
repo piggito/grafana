@@ -1,8 +1,8 @@
+import { QueryVariable, SceneQueryRunner, SceneVariableSet } from '@piggito/scenes';
 import { useLocation } from 'react-router-dom';
 
 import { UrlQueryMap, urlUtil } from '@grafana/data';
 import { locationSearchToObject } from '@grafana/runtime';
-import { QueryVariable, SceneQueryRunner, SceneVariableSet } from '@grafana/scenes';
 import { PromQuery } from 'app/plugins/datasource/prometheus/types';
 
 export function useAppQueryParams() {

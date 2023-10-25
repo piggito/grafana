@@ -1,3 +1,4 @@
+import { sceneGraph } from '@piggito/scenes';
 import { cloneDeep, extend, isString } from 'lodash';
 
 import {
@@ -12,7 +13,6 @@ import {
   IntervalValues,
 } from '@grafana/data';
 import { locationService } from '@grafana/runtime';
-import { sceneGraph } from '@grafana/scenes';
 import appEvents from 'app/core/app_events';
 import { config } from 'app/core/config';
 import { AutoRefreshInterval, contextSrv, ContextSrv } from 'app/core/services/context_srv';

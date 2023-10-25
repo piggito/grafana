@@ -1,5 +1,3 @@
-import { getPanelPlugin } from '@grafana/data/test/__mocks__/pluginMocks';
-import { setPluginImportUtils } from '@grafana/runtime';
 import {
   EmbeddedScene,
   SceneGridLayout,
@@ -8,7 +6,10 @@ import {
   SceneVariableSet,
   TestVariable,
   VizPanel,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
+import { getPanelPlugin } from '@grafana/data/test/__mocks__/pluginMocks';
+import { setPluginImportUtils } from '@grafana/runtime';
 import { ALL_VARIABLE_TEXT, ALL_VARIABLE_VALUE } from 'app/features/variables/constants';
 
 import { activateFullSceneTree } from '../utils/test-utils';

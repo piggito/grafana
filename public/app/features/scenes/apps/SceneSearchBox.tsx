@@ -1,6 +1,6 @@
+import { SceneComponentProps, SceneObjectState, SceneObjectBase } from '@piggito/scenes';
 import React from 'react';
 
-import { SceneComponentProps, SceneObjectState, SceneObjectBase } from '@grafana/scenes';
 import { Input } from '@grafana/ui';
 
 export interface SceneSearchBoxState extends SceneObjectState {

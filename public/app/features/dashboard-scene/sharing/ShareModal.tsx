@@ -1,7 +1,7 @@
+import { SceneComponentProps, SceneObjectBase, SceneObjectState, VizPanel, SceneObjectRef } from '@piggito/scenes';
 import React, { ComponentProps } from 'react';
 
 import { config } from '@grafana/runtime';
-import { SceneComponentProps, SceneObjectBase, SceneObjectState, VizPanel, SceneObjectRef } from '@grafana/scenes';
 import { Modal, ModalTabsHeader, TabContent } from '@grafana/ui';
 import { contextSrv } from 'app/core/core';
 import { t } from 'app/core/internationalization';

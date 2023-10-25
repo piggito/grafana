@@ -1,13 +1,4 @@
 import {
-  AdHocVariableModel,
-  ConstantVariableModel,
-  CustomVariableModel,
-  DataSourceVariableModel,
-  IntervalVariableModel,
-  QueryVariableModel,
-  VariableModel,
-} from '@grafana/data';
-import {
   VizPanel,
   SceneTimePicker,
   SceneGridLayout,
@@ -33,7 +24,17 @@ import {
   SceneDataLayerProvider,
   SceneDataLayerControls,
   AdHocFilterSet,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
+import {
+  AdHocVariableModel,
+  ConstantVariableModel,
+  CustomVariableModel,
+  DataSourceVariableModel,
+  IntervalVariableModel,
+  QueryVariableModel,
+  VariableModel,
+} from '@grafana/data';
 import { DashboardModel, PanelModel } from 'app/features/dashboard/state';
 import { DashboardDTO } from 'app/types';
 

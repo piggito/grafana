@@ -1,8 +1,3 @@
-import React from 'react';
-import { useLocation } from 'react-router-dom';
-
-import { locationUtil } from '@grafana/data';
-import { locationService } from '@grafana/runtime';
 import {
   SceneComponentProps,
   SceneObjectBase,
@@ -10,7 +5,12 @@ import {
   sceneGraph,
   VizPanel,
   SceneObjectRef,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+
+import { locationUtil } from '@grafana/data';
+import { locationService } from '@grafana/runtime';
 import { Alert, Drawer, Tab, TabsBar } from '@grafana/ui';
 import { getDataSourceWithInspector } from 'app/features/dashboard/components/Inspector/hooks';
 import { supportsDataQuery } from 'app/features/dashboard/components/PanelEditor/utils';

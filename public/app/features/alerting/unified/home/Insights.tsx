@@ -1,7 +1,3 @@
-import React from 'react';
-
-import { DataSourceInstanceSettings, DataSourceJsonData } from '@grafana/data';
-import { getDataSourceSrv } from '@grafana/runtime';
 import {
   EmbeddedScene,
   NestedScene,
@@ -15,7 +11,11 @@ import {
   SceneTimeRange,
   SceneVariableSet,
   VariableValueSelectors,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+
+import { DataSourceInstanceSettings, DataSourceJsonData } from '@grafana/data';
+import { getDataSourceSrv } from '@grafana/runtime';
 
 import { SectionFooter } from '../insights/SectionFooter';
 import { SectionSubheader } from '../insights/SectionSubheader';

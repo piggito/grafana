@@ -1,8 +1,8 @@
+import { SceneObject } from '@piggito/scenes';
 import saveAs from 'file-saver';
 
 import { dateTimeFormat, formattedValueToString, getValueFormat, SelectableValue } from '@grafana/data';
 import { config } from '@grafana/runtime';
-import { SceneObject } from '@grafana/scenes';
 import { StateManagerBase } from 'app/core/services/StateManagerBase';
 import { createDashboardSceneFromDashboardModel } from 'app/features/dashboard-scene/serialization/transformSaveModelToScene';
 

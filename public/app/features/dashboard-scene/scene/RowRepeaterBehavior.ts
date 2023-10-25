@@ -11,7 +11,7 @@ import {
   SceneVariableSet,
   VariableDependencyConfig,
   VariableValueSingle,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
 
 import { getMultiVariableValues } from '../utils/utils';
 

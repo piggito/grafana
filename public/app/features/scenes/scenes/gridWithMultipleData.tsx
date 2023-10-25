@@ -6,7 +6,8 @@ import {
   SceneRefreshPicker,
   SceneGridItem,
   PanelBuilders,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
 import { TestDataQueryType } from '@grafana-plugins/grafana-testdata-datasource/dataquery.gen';
 
 import { DashboardScene } from '../../dashboard-scene/scene/DashboardScene';

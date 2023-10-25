@@ -1,5 +1,3 @@
-import { IntervalVariableModel, UrlQueryMap, urlUtil } from '@grafana/data';
-import { config, locationSearchToObject } from '@grafana/runtime';
 import {
   MultiValueVariable,
   SceneDataTransformer,
@@ -7,7 +5,10 @@ import {
   SceneObject,
   SceneQueryRunner,
   VizPanel,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
+import { IntervalVariableModel, UrlQueryMap, urlUtil } from '@grafana/data';
+import { config, locationSearchToObject } from '@grafana/runtime';
 import { initialIntervalVariableModelState } from 'app/features/variables/interval/reducer';
 
 import { DashboardScene } from '../scene/DashboardScene';

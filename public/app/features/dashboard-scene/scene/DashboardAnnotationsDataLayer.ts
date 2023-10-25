@@ -1,3 +1,5 @@
+import { dataLayers } from '@piggito/scenes';
+
 import {
   AnnotationEvent,
   arrayToDataFrame,
@@ -7,7 +9,6 @@ import {
   LoadingState,
 } from '@grafana/data';
 import { config } from '@grafana/runtime';
-import { dataLayers } from '@grafana/scenes';
 import { AnnotationQuery } from '@grafana/schema';
 import { PublicAnnotationsDataSource } from 'app/features/query/state/DashboardQueryRunner/PublicAnnotationsDataSource';
 

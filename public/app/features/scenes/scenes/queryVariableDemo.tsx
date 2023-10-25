@@ -1,4 +1,3 @@
-import { VariableRefresh } from '@grafana/data';
 import {
   SceneCanvasText,
   SceneTimePicker,
@@ -11,7 +10,9 @@ import {
   QueryVariable,
   SceneRefreshPicker,
   SceneFlexItem,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
+import { VariableRefresh } from '@grafana/data';
 
 import { DashboardScene } from '../../dashboard-scene/scene/DashboardScene';
 

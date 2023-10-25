@@ -1,4 +1,5 @@
-import { QueryRunnerState, SceneQueryRunner } from '@grafana/scenes';
+import { QueryRunnerState, SceneQueryRunner } from '@piggito/scenes';
+
 import { TestData } from '@grafana-plugins/grafana-testdata-datasource/dataquery.gen';
 
 export function getQueryRunnerWithRandomWalkQuery(

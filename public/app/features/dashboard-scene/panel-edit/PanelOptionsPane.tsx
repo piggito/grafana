@@ -1,8 +1,8 @@
 import { css } from '@emotion/css';
+import { SceneComponentProps, SceneObjectBase, SceneObjectState, VizPanel } from '@piggito/scenes';
 import React from 'react';
 
 import { GrafanaTheme2 } from '@grafana/data';
-import { SceneComponentProps, SceneObjectBase, SceneObjectState, VizPanel } from '@grafana/scenes';
 import { Field, Input, useStyles2 } from '@grafana/ui';
 
 export interface PanelOptionsPaneState extends SceneObjectState {}

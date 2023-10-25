@@ -1,5 +1,6 @@
+import { SceneObject } from '@piggito/scenes';
+
 import { BusEventWithPayload } from '@grafana/data';
-import { SceneObject } from '@grafana/scenes';
 
 export interface DashboardRepeatsProcessedEventPayload {
   source: SceneObject;

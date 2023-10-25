@@ -1,5 +1,6 @@
+import { SceneGridItem, SceneGridLayout, SceneQueryRunner, VizPanel } from '@piggito/scenes';
+
 import { AppEvents } from '@grafana/data';
-import { SceneGridItem, SceneGridLayout, SceneQueryRunner, VizPanel } from '@grafana/scenes';
 import appEvents from 'app/core/app_events';
 
 import { DashboardScene } from './DashboardScene';

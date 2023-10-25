@@ -1,9 +1,9 @@
+import { SceneComponentProps, SceneObjectBase, SceneObjectRef, VizPanel, sceneGraph } from '@piggito/scenes';
 import React from 'react';
 
 import { dateTime, UrlQueryMap } from '@grafana/data';
 import { selectors as e2eSelectors } from '@grafana/e2e-selectors';
 import { config, locationService } from '@grafana/runtime';
-import { SceneComponentProps, SceneObjectBase, SceneObjectRef, VizPanel, sceneGraph } from '@grafana/scenes';
 import { TimeZone } from '@grafana/schema';
 import { Alert, ClipboardButton, Field, FieldSet, Icon, Input, Switch } from '@grafana/ui';
 import { t, Trans } from 'app/core/internationalization';

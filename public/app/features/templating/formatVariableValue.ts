@@ -1,4 +1,5 @@
-import { formatRegistry } from '@grafana/scenes';
+import { formatRegistry } from '@piggito/scenes';
+
 import { VariableFormatID } from '@grafana/schema';
 
 import { isAdHoc } from '../variables/guard';

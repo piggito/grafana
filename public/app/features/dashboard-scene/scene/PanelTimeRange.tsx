@@ -1,14 +1,14 @@
 import { css } from '@emotion/css';
-import React from 'react';
-
-import { dateMath, getDefaultTimeRange, GrafanaTheme2, rangeUtil, TimeRange } from '@grafana/data';
 import {
   SceneComponentProps,
   sceneGraph,
   SceneTimeRangeLike,
   SceneTimeRangeState,
   SceneTimeRangeTransformerBase,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+
+import { dateMath, getDefaultTimeRange, GrafanaTheme2, rangeUtil, TimeRange } from '@grafana/data';
 import { Icon, PanelChrome, TimePickerTooltip, Tooltip, useStyles2 } from '@grafana/ui';
 import { TimeOverrideResult } from 'app/features/dashboard/utils/panel';
 

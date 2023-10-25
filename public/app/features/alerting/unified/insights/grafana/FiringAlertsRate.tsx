@@ -1,4 +1,5 @@
-import { PanelBuilders, SceneFlexItem, SceneQueryRunner } from '@grafana/scenes';
+import { PanelBuilders, SceneFlexItem, SceneQueryRunner } from '@piggito/scenes';
+
 import { DataSourceRef, GraphDrawStyle } from '@grafana/schema';
 
 import { PANEL_STYLES } from '../../home/Insights';

@@ -1,10 +1,10 @@
 import { css, cx } from '@emotion/css';
+import { EmbeddedScene, SceneFlexLayout, SceneFlexItem, SceneReactObject } from '@piggito/scenes';
 import React from 'react';
 import SVG from 'react-inlinesvg';
 
 import { GrafanaTheme2 } from '@grafana/data';
 import { Stack } from '@grafana/experimental';
-import { EmbeddedScene, SceneFlexLayout, SceneFlexItem, SceneReactObject } from '@grafana/scenes';
 import { Icon, useStyles2, useTheme2 } from '@grafana/ui';
 
 export const getOverviewScene = () => {

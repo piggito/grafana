@@ -1,5 +1,6 @@
+import { sceneGraph, SceneGridItem, SceneGridLayout, SceneQueryRunner, VizPanel } from '@piggito/scenes';
+
 import { CoreApp } from '@grafana/data';
-import { sceneGraph, SceneGridItem, SceneGridLayout, SceneQueryRunner, VizPanel } from '@grafana/scenes';
 import { getDashboardSrv } from 'app/features/dashboard/services/DashboardSrv';
 
 import { DashboardScene } from './DashboardScene';

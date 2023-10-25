@@ -1,10 +1,10 @@
+import { SceneComponentProps, SceneObjectBase, SceneObjectRef } from '@piggito/scenes';
 import saveAs from 'file-saver';
 import React from 'react';
 import { useAsync } from 'react-use';
 import AutoSizer from 'react-virtualized-auto-sizer';
 
 import { config, getBackendSrv } from '@grafana/runtime';
-import { SceneComponentProps, SceneObjectBase, SceneObjectRef } from '@grafana/scenes';
 import { Button, ClipboardButton, CodeEditor, Field, Modal, Switch, VerticalGroup } from '@grafana/ui';
 import { t, Trans } from 'app/core/internationalization';
 import { DashboardExporter } from 'app/features/dashboard/components/DashExportModal';

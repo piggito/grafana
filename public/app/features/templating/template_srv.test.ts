@@ -1,6 +1,7 @@
+import { ConstantVariable, EmbeddedScene, SceneCanvasText, SceneVariableSet, TestVariable } from '@piggito/scenes';
+
 import { dateTime, TimeRange } from '@grafana/data';
 import { setDataSourceSrv, VariableInterpolation } from '@grafana/runtime';
-import { ConstantVariable, EmbeddedScene, SceneCanvasText, SceneVariableSet, TestVariable } from '@grafana/scenes';
 import { VariableFormatID } from '@grafana/schema';
 
 import { silenceConsoleOutput } from '../../../test/core/utils/silenceConsoleOutput';
@@ -22,8 +23,8 @@ variableAdapters.setInit(() => [
 
 const interpolateMock = jest.fn();
 
-jest.mock('@grafana/scenes', () => ({
-  ...jest.requireActual('@grafana/scenes'),
+jest.mock('@piggito/scenes', () => ({
+  ...jest.requireActual('@piggito/scenes'),
   sceneGraph: {
     interpolate: (...args: unknown[]) => interpolateMock(...args),
   },

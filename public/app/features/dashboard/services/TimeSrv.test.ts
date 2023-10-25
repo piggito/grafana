@@ -1,9 +1,9 @@
+import { EmbeddedScene, SceneCanvasText, SceneTimeRange } from '@piggito/scenes';
 import * as H from 'history';
 import { ContextSrvStub } from 'test/specs/helpers';
 
 import { dateTime, isDateTime } from '@grafana/data';
 import { config, HistoryWrapper, locationService, setLocationService } from '@grafana/runtime';
-import { EmbeddedScene, SceneCanvasText, SceneTimeRange } from '@grafana/scenes';
 
 import { TimeModel } from '../state/TimeModel';
 

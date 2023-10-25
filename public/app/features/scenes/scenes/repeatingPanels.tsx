@@ -9,7 +9,8 @@ import {
   SceneGridLayout,
   SceneControlsSpacer,
   SceneGridRow,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
 import { VariableRefresh } from '@grafana/schema';
 import { PanelRepeaterGridItem } from 'app/features/dashboard-scene/scene/PanelRepeaterGridItem';
 import { RowRepeaterBehavior } from 'app/features/dashboard-scene/scene/RowRepeaterBehavior';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {
   SceneFlexLayout,
   SceneTimePicker,
@@ -14,7 +12,9 @@ import {
   SceneObjectUrlSyncConfig,
   SceneObjectUrlValues,
   PanelBuilders,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+
 import { Button } from '@grafana/ui';
 
 import { getInstantQuery, getTimeSeriesQuery, getVariablesDefinitions } from './utils';

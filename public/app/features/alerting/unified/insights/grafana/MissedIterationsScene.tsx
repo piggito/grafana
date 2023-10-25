@@ -1,14 +1,14 @@
-import React from 'react';
-import { Observable, map } from 'rxjs';
-
-import { DataFrame } from '@grafana/data';
 import {
   CustomTransformOperator,
   PanelBuilders,
   SceneDataTransformer,
   SceneFlexItem,
   SceneQueryRunner,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+import { Observable, map } from 'rxjs';
+
+import { DataFrame } from '@grafana/data';
 import { DataSourceRef, GraphDrawStyle, TooltipDisplayMode } from '@grafana/schema';
 
 import { PANEL_STYLES } from '../../home/Insights';

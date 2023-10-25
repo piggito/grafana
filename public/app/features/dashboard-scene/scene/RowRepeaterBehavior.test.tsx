@@ -7,7 +7,8 @@ import {
   SceneTimeRange,
   SceneVariableSet,
   TestVariable,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+
 import { ALL_VARIABLE_TEXT, ALL_VARIABLE_VALUE } from 'app/features/variables/constants';
 
 import { activateFullSceneTree } from '../utils/test-utils';

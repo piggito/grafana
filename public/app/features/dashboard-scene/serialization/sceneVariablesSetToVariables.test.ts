@@ -1,3 +1,4 @@
+import { ConstantVariable, CustomVariable, DataSourceVariable, QueryVariable, SceneVariableSet } from '@piggito/scenes';
 import { of } from 'rxjs';
 
 import {
@@ -12,7 +13,6 @@ import {
   VariableSupportType,
 } from '@grafana/data';
 import { setRunRequest } from '@grafana/runtime';
-import { ConstantVariable, CustomVariable, DataSourceVariable, QueryVariable, SceneVariableSet } from '@grafana/scenes';
 import { DataSourceRef } from '@grafana/schema';
 
 import { sceneVariablesSetToVariables } from './sceneVariablesSetToVariables';

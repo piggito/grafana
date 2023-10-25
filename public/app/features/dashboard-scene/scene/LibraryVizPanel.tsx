@@ -1,6 +1,6 @@
+import { SceneComponentProps, SceneObjectBase, SceneObjectState, VizPanel } from '@piggito/scenes';
 import React from 'react';
 
-import { SceneComponentProps, SceneObjectBase, SceneObjectState, VizPanel } from '@grafana/scenes';
 import { PanelModel } from 'app/features/dashboard/state';
 import { getLibraryPanel } from 'app/features/library-panels/state/api';
 

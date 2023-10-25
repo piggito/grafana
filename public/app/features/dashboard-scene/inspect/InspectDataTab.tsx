@@ -1,6 +1,3 @@
-import React from 'react';
-
-import { LoadingState } from '@grafana/data';
 import {
   SceneComponentProps,
   SceneDataProvider,
@@ -10,7 +7,10 @@ import {
   SceneObjectRef,
   SceneObjectState,
   VizPanel,
-} from '@grafana/scenes';
+} from '@piggito/scenes';
+import React from 'react';
+
+import { LoadingState } from '@grafana/data';
 import { t } from 'app/core/internationalization';
 import { InspectTab } from 'app/features/inspector/types';
 import { GetDataOptions } from 'app/features/query/state/PanelQueryRunner';
