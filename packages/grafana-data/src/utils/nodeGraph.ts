@@ -41,4 +41,7 @@ export enum NodeGraphDataFrameFieldNames {
 
   // Size of the node icon [nodes]
   iconSize = 'iconsize',
+
+  // Font size in pixels for node text [nodes]
+  fontSize = 'fontsize',
 }
