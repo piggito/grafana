@@ -281,6 +281,12 @@ func (s *UserSync) createUser(ctx context.Context, id *authn.Identity) (*user.Us
 		isAdmin = *id.IsGrafanaAdmin
 	}
 
+	s.log.FromContext(ctx).Error("Login: ", id.Login)
+	s.log.FromContext(ctx).Error("Email: ", id.Email)
+	s.log.FromContext(ctx).Error("Name: ", id.Name)
+	s.log.FromContext(ctx).Error("Is Admin: ", isAdmin)
+	s.log.FromContext(ctx).Error("SkipOrgSetup: ", len(id.OrgRoles))
+
 	usr, errCreateUser := s.userService.Create(ctx, &user.CreateUserCommand{
 		Login:        id.Login,
 		Email:        id.Email,
