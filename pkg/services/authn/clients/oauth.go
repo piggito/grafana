@@ -168,12 +168,6 @@ func (c *OAuth) Authenticate(ctx context.Context, r *authn.Request) (*authn.Iden
 		return userInfo.Role, userInfo.IsGrafanaAdmin, nil
 	})
 
-	lookupParams := login.UserLookupParams{}
-	allowInsecureEmailLookup := c.settingsProviderSvc.KeyValue("auth", "oauth_allow_insecure_email_lookup").MustBool(false)
-	if allowInsecureEmailLookup {
-		lookupParams.Email = &userInfo.Email
-	}
-
 	return &authn.Identity{
 		Login:           userInfo.Login,
 		Name:            userInfo.Name,
@@ -192,7 +186,9 @@ func (c *OAuth) Authenticate(ctx context.Context, r *authn.Request) (*authn.Iden
 			AllowSignUp:     connector.IsSignupAllowed(),
 			// skip org role flag is checked and handled in the connector. For now we can skip the hook if no roles are passed
 			SyncOrgRoles: len(orgRoles) > 0,
-			LookUpParams: lookupParams,
+			LookUpParams: login.UserLookupParams{
+				Login: &userInfo.Login,
+			},
 		},
 	}, nil
 }
